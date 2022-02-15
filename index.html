@@ -3,6 +3,8 @@
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+  <link rel=”stylesheet” type=”text/css” href=”styles/style.css”>
+<!--
   <script> 
     let visited = Cookies.get('visited');
     if (visited == "yes") {
@@ -11,10 +13,6 @@
     } else {
         window.location.replace("https://fourleafclover.company/quaternion-inference.html");
   }
-    
-  </script>
-  
-  <script>
     function setLocation0() {
       window.location.replace("https://github.com/TheBozzz34/");
     }
@@ -24,10 +22,14 @@
     function setLocation2() {
       window.location.replace("https://instagram.com/k._eturah");
     }
-    </script>                                                                    
+    </script>
+    -->
+  <script src="/scripts/script.js"></script>
   <title>Homepage</title>
   <script async src="https://arc.io/widget.min.js#h1n8WiVH"></script>
 </head>
+
+<!--
 <style>
 :root {
   --card-height: 65vh;
@@ -46,7 +48,7 @@ width: var(--card-width);
 height: var(--card-height);  
 }
 body {
-  background-image: url('https://fourleafclover.company/minimalizm-gradient-background.jpg');
+  background-image: url("/images/minimalizm-gradient-background.jpg");
 } 
 .image-cropper {
   width: 100px;
@@ -100,13 +102,13 @@ img {
 .footer {
     position: absolute;
     bottom: 0;
-    left: 20;
+    left: 0;
     color: rgb(88 199 250 / 100%);
     font-family: cursive;
     font-size: .6em;
 }
 </style>
-
+-->
   
 <div class="centerDiv" id="mainDiv">
 <p> 
@@ -115,8 +117,8 @@ img {
   </div>
   </br>
   <button id="button-1" class="button-1" role="button" onclick="setLocation0()">GitHub</button>
-  <button id="button-1" class="button-1" role="button" onclick="setLocation1()">Twitter</button>
-  <button id="button-1" class="button-1" role="button" onclick="setLocation2()">Instagram</button>
+  <button id="button-2" class="button-1" role="button" onclick="setLocation1()">Twitter</button>
+  <button id="button-3" class="button-1" role="button" onclick="setLocation2()">Instagram</button>
   </br>
   <p class="infoText">
       Frontend developer i guess

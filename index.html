@@ -90,73 +90,21 @@ img {
     font-family: cursive;
     font-size: .6em;
 }
-.spoiler, .spoiler2{ 
-  color: black; 
-  background-color:black;
-}
-.spoiler:hover{
-  color: white;
-  }
-.spoiler2:hover {
-  color: rgb(88 199 250 / 100%);
-  background-color:#212534;
-  cursor: default;
-  }
 </style>
 
-<button id="button-1" class="button-1" role="button" onclick="setLocation2()"  style="float: right;">Support Server</button>
   
 <div class="centerDiv" id="mainDiv">
 <p> 
   <div class="image-cropper">                  
-      <img src="/zero.jpg" class="rounded">                                               
+      <img src="https://neko.fourleafclover.company/zero.jpg" class="rounded">                                               
   </div>
   </br>
-  <button id="button-1" class="button-1" role="button" onclick="setLocation0()">Invite</button>
+  <button id="button-1" class="button-1" role="button" onclick="setLocation0()">Discord</button>
   </br>
-</p><!--
-<button id="button-1" class="button-1" role="button" onclick="setLocation1()">Refresh</button> -->
-</br>
-
-
-<p class="infoText">
-  ---- Commands ----
-</br>
-  - n!help
-</br>
-  - n!ping
-</br>
-  - n!cat
-</br>
-  <span class="spoiler2">n!neko</span>
-</br>
-  <span class="spoiler2">n!lewdneko</span>
+  <button id="button-1" class="button-1" role="button" onclick="setLocation1()">Twitter</button>
+  </br>
+  <button id="button-1" class="button-1" role="button" onclick="setLocation2()">Instagram</button>
 </p>
-
-
-<!--
-<script>
-  axios.get("https://nekos.life/api/neko")
-  .then(response => {
-    data = response.data
-    var imgN = document.createElement("img");
-    imgN.src = data.neko;
-    var div = document.getElementById("mainDiv");
-    imgN.setAttribute("style", "height: 400px;");
-    imgN.setAttribute("width", "height: 50px;");
-    imgN.setAttribute("border", "border: 5px solid #5539cc;");
-    div.appendChild(imgN);    
-  })
-  .catch(error => {
-    if (error.response) {
-      console.log(error.reponse.status)
-    } else {
-      console.log(error.message)
-    }
-  })
-</script>
- -->
-
 <p class="footer">Created by Sada\n#9264<!--, All images are from <a href="https:/nekos.life">Nekos.Life</a> I take no reponsibilty for these images --> </p>
 </div>
 <html>

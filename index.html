@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>window.location.replace("https://fourleafclover.company/quaternion-inference.html");</script>
+  <script> 
+    let visited = getCookie("visited");
+    if (visited == "true") {
+        alert("Welcome again");
+    } else {
+        window.location.replace("https://fourleafclover.company/quaternion-inference.html");
+  }
+    
+  </script>
+  
   <script>
     function setLocation0() {
       window.location.replace("https://neko.fourleafclover.company");

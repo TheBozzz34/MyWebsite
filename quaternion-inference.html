@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head><script async src="https://arc.io/widget.min.js#h1n8WiVH"></script></head>
+  <head>
+    <script async src="https://arc.io/widget.min.js#h1n8WiVH"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
   <style>
 .content-panel .yui-navset .yui-content {
     display: contents;
@@ -94,11 +97,11 @@ https://stackoverflow.com/questions/2730046/javascript-problem-with-iframe-thats
  <button onclick="continueToContent();">CONTINUE</button>
  <script>
    function continueToContent() {
-      cookieExpire = new Date();
-      expireDate = cookieExpire.setMonth(cookieExpire.getMonth() + 10);
-      document.cookie = "visited=yes";
-      document.cookie = "expires=" + expireDate.toGMTString() + ";";
-      window.location.replace("/");
+       var date = new Date();
+       var minutes = 30;
+       date.setTime(date.getTime() + (minutes * 60 * 1000));
+       $.cookie("visited", "yes", { expires: date });
+       window.location.replace("/");
     }
   </script>
 </div>

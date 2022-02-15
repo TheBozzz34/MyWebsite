@@ -94,7 +94,9 @@ https://stackoverflow.com/questions/2730046/javascript-problem-with-iframe-thats
  <button onclick="continueToContent();">CONTINUE</button>
  <script>
    function continueToContent() {
-      document.cookie = "visited=yes"; 
+      cookieExpire = new Date();
+      cookieExpire.setMonth(cookieExpire.getMonth() + 10);
+      document.cookie = "visited=yes"; expires="+ expireDate.toGMTString() + ";";
       window.location.replace("/");
     }
   </script>

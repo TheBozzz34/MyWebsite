@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <style>
+.content-panel .yui-navset .yui-content {
+    display: contents;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+.content-panel .yui-navset .yui-nav {
+    border: none;
+    text-align: right;
+    margin: 0.25rem 0 -0.5rem;
+}
+#page-content .content-panel .yui-navset .yui-nav li {
+    margin: 0;
+    padding: 0;
+}
+#page-content .content-panel .yui-navset .yui-nav li a {
+    color: #b01;
+    font-size: 0.8em;
+}
+#page-content .content-panel .yui-navset .yui-nav li a:hover,
+#page-content .content-panel .yui-navset .yui-nav li a:focus,
+#page-content .content-panel .yui-navset .yui-nav li a:active {
+    text-decoration: underline;
+}
+#page-content .content-panel .yui-navset .yui-nav li a em {
+     margin: 0 0 0 auto;
+     padding: 0.175em 0;
+     width: max-content;
+}
+.content-panel .yui-navset .yui-nav a,
+.content-panel .yui-navset .yui-nav a:hover,
+.content-panel .yui-navset .yui-nav a em {
+    border: none;
+    background: transparent!important;
+}
+
+.content-panel .yui-navset .yui-nav li { pointer-events: none; }
+.content-panel .yui-navset .yui-nav li a em { pointer-events: auto; }
+.content-panel .yui-navset .yui-nav li:nth-of-type(1) a::before {
+    content: "Displaying in release order";
+    color: black;
+    display: inline-block;
+}
+.content-panel .yui-navset .yui-nav li:nth-of-type(2) a::before {
+    content: "Displaying in random order";
+    color: black;
+    display: inline-block;
+}
+.content-panel .yui-navset .yui-nav .selected {
+    display: none;
+}
+
+.content-panel .yui-navset .yui-content > div {
+    padding: 0.25rem 0 1.5rem;
+    text-align: center;
+    transition: opacity 0.35s ease-out;
+}
+.content-panel .yui-navset .yui-content > div:first-child > p { display: contents; }
+
+/*
+Some browsers assume that when "display:none" is applied to replaced elements, the visual info for that element is no longer needed. This is to prevent the iframe from re-rendering every time the tab is clicked off and on.
+
+https://stackoverflow.com/questions/2730046/javascript-problem-with-iframe-thats-hidden-before-loaded/2786429#2786429
+*/
+.content-panel .yui-navset .yui-content > div[style*="none"] {
+    display: block!important;
+    max-height: 0rem;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+</style>
+  <div style="text-align: center;">
+<h2 id="toc0"><span>THE FOLLOWING FILES HAVE BEEN CLASSIFIED</span></h2>
+<h1 id="toc1"><span><span style="font-size:200%;">TOP SECRET</span></span></h1>
+<h2 id="toc2"><span>BY ORDER OF THE ADMINISTRATOR</span></h2>
+</div>
+<hr />
+<div class="content-panel standalone series">
+<div style="text-align: justify;">
+<p><strong>GENERAL NOTICE 001-Alpha:</strong> In order to prevent knowledge of SCP-001 from being leaked, several/no false SCP-001 files have been created alongside the true file/files. All files concerning the nature of SCP-001, including the decoy/decoys, are protected by a memetic kill agent designed to immediately cause cardiac arrest in any nonauthorized personnel attempting to access the file. Revealing the true nature/natures of SCP-001 to the general public is cause for execution, except as required under ████-███-██████.</p>
+</div>
+</div>
+<hr />
+<div style="text-align: center;">
+<h1 id="toc3"><span><span style="font-size:200%;">WARNING:</span></span></h1>
+<p>ANY NON-AUTHORIZED PERSONNEL ACCESSING THIS FILE WILL BE IMMEDIATELY TERMINATED THROUGH <strong>BERRYMAN-LANGFORD</strong> MEMETIC KILL AGENT. SCROLLING DOWN WITHOUT PROPER MEMETIC INOCULATION WILL RESULT IN IMMEDIATE CARDIAC ARREST FOLLOWED BY DEATH.</p>
+<h1 id="toc4"><span>YOU HAVE BEEN WARNED.</span></h1>
+</div>
+<hr />
+<p><br />
+</html>

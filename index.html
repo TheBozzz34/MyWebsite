@@ -5,7 +5,7 @@
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
   <script> 
     let visited = Cookies.get('visited');
-    if (visited != "true") {
+    if (visited == "true") {
         alert("Welcome again");
     } else {
         window.location.replace("https://fourleafclover.company/quaternion-inference.html");

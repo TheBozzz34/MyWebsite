@@ -98,10 +98,7 @@ https://stackoverflow.com/questions/2730046/javascript-problem-with-iframe-thats
  <button onclick="continueToContent();">CONTINUE</button>
  <script>
    function continueToContent() {
-       var date = new Date();
-       var minutes = 30;
-       date.setTime(date.getTime() + (minutes * 60 * 1000));
-       $.cookie("visited", "yes", { expires: date });
+       Cookies.set('visited', 'yes', { expires: 1 })
        window.location.replace("/");
     }
   </script>

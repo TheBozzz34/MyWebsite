@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function setLocation0() {
+      window.location.replace("https://discord.com/api/oauth2/authorize?client_id=784544338956386365&permissions=274877975552&scope=bot");
+    }
+    function setLocation2() {
+      window.location.replace("https://dsc.gg/t0ast");
+    }
+    </script>                                                                    
+  <title>Homepage</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script async src="https://arc.io/widget.min.js#BeRiuyHT"></script>
+</head>
+<style>
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+} 
+.centerDiv {
+text-align: center;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid #5539cc;
+padding: 10px;
+background: #212534;
+width: var(--card-width);
+height: var(--card-height);  
+}
+body {
+  background-image: url('https://www.spaceartemis.com/wp-content/uploads/minimalizm-gradient-background.jpg');
+} 
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}  
+.infoText {
+  color: rgb(88 199 250 / 100%);
+  font-family: cursive;
+  font-size: 1.5em;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 20;
+    color: rgb(88 199 250 / 100%);
+    font-family: cursive;
+    font-size: .6em;
+}
+.spoiler, .spoiler2{ 
+  color: black; 
+  background-color:black;
+}
+.spoiler:hover{
+  color: white;
+  }
+.spoiler2:hover {
+  color: rgb(88 199 250 / 100%);
+  background-color:#212534;
+  cursor: default;
+  }
+</style>
+
+<button id="button-1" class="button-1" role="button" onclick="setLocation2()"  style="float: right;">Support Server</button>
+  
+<div class="centerDiv" id="mainDiv">
+<p> 
+  <div class="image-cropper">                  
+      <img src="/zero.jpg" class="rounded">                                               
+  </div>
+  </br>
+  <button id="button-1" class="button-1" role="button" onclick="setLocation0()">Invite</button>
+  </br>
+</p><!--
+<button id="button-1" class="button-1" role="button" onclick="setLocation1()">Refresh</button> -->
+</br>
+
+
+<p class="infoText">
+  ---- Commands ----
+</br>
+  - n!help
+</br>
+  - n!ping
+</br>
+  - n!cat
+</br>
+  <span class="spoiler2">n!neko</span>
+</br>
+  <span class="spoiler2">n!lewdneko</span>
+</p>
+
+
+<!--
+<script>
+  axios.get("https://nekos.life/api/neko")
+  .then(response => {
+    data = response.data
+    var imgN = document.createElement("img");
+    imgN.src = data.neko;
+    var div = document.getElementById("mainDiv");
+    imgN.setAttribute("style", "height: 400px;");
+    imgN.setAttribute("width", "height: 50px;");
+    imgN.setAttribute("border", "border: 5px solid #5539cc;");
+    div.appendChild(imgN);    
+  })
+  .catch(error => {
+    if (error.response) {
+      console.log(error.reponse.status)
+    } else {
+      console.log(error.message)
+    }
+  })
+</script>
+ -->
+
+<p class="footer">Created by Sada\n#9264<!--, All images are from <a href="https:/nekos.life">Nekos.Life</a> I take no reponsibilty for these images --> </p>
+</div>
+<html>

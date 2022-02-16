@@ -14,13 +14,5 @@ let visited = Cookies.get('visited');
     function setLocation2() {
       window.location.replace("https://instagram.com/k._eturah");
     }
-const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    audio: [{
-        name: 'name',
-        artist: 'artist',
-        url: 'url.mp3',
-        cover: 'cover.jpg'
-    }]
-});
+
 

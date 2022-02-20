@@ -1,3 +1,5 @@
+
+/*
 let visited = Cookies.get('visited');
     if (visited == "yes") {
         //alert("Welcome again");
@@ -5,6 +7,7 @@ let visited = Cookies.get('visited');
     } else {
         window.location.replace("https://fourleafclover.company/quaternion-inference.html");
   }
+*/  
 function setLocation0() {
   window.location.replace("https://github.com/TheBozzz34/");
 }

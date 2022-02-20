@@ -6481,3 +6481,15 @@ class User {
 exports.User = User;
 
 },{"../Util":39}]},{},[5]);
+
+const client = await Client.create({
+    refreshToken: true, // Set this to true.
+    token: {
+        clientID: 'id', // Your spotify application client id.
+        clientSecret: 'secret', // Your spotify application client secret.
+    },
+    // This event is emitted whenever the token is refreshed by either 429 requests or [Client.refresh] method.
+    onRefresh() {
+        console.log(`Token has been refreshed. New token: ${client.token}!`);
+    }
+});

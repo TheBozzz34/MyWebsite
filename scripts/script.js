@@ -24,7 +24,7 @@ var sound = new Howl({
       src: ['/audio/yama.ogg'],
       autoplay: true,
       loop: true,
-      volume: 0.1,
+      volume: 0.3,
       html5: true
 });
 sound.play();

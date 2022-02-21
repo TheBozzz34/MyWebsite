@@ -33,9 +33,12 @@ sound.play();
 function musicToggle()
 {
   let playing = sound.playing;
-  if(playing.value=="true"){
-      sound.pause();}
-  else if(playing.value=="false"){
-      sound.play();}
+  console.log(playing.value);
+  if(playing.value == "true") {
+      sound.pause();
+  }
+  else if(playing.value == "false") {
+      sound.play();
+  }
 }
 

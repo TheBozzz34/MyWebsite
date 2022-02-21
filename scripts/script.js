@@ -28,3 +28,14 @@ var sound = new Howl({
       html5: true
 });
 sound.play();
+
+
+function musicToggle()
+{
+  bool playing = sound.playing;
+  if(t.value=="true"){
+      sound.pause();}
+  else if(t.value=="false"){
+      sound.play();}
+}
+

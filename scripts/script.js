@@ -42,3 +42,9 @@ function musicToggle() {
   }
 }// Function refuses to work and i have no idea why
 
+
+
+Toastify({
+    text: "This is a toast",
+    duration: 3000
+}).showToast();

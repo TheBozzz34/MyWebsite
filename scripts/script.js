@@ -42,10 +42,9 @@ function musicToggle() {
   }
 }// Function refuses to work and i have no idea why
 
-myToast = Toastify({
-  text: "This is a toast message",
-  duration: 5000,
-  selector: '#main'
+var myToast = Toastify({
+ text: "This is a toast message",
+ duration: 5000
 })
 myToast.showToast();
 

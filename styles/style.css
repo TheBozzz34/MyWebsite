@@ -1,3 +1,7 @@
+@font-face{
+  font-family: 'GatterSans';
+  src: url(/fonts/GatterSans-Regular.otf); 
+}
 :root {
     --card-height: 65vh;
     --card-width: calc(var(--card-height) / 1.5);
@@ -39,7 +43,7 @@ img {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "GatterSans;
     font-size: 14px;
     font-weight: 500;
     height: 40px;

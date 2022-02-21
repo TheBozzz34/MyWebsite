@@ -31,6 +31,7 @@ sound.play();
 
 
 function musicToggle() {
+  console.log("toggled");
   var playing = sound.playing();
   console.log(playing);
   if(playing == "true") {

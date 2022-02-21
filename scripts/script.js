@@ -45,6 +45,8 @@ function musicToggle() {
 
 
 Toastify({
-    text: "This is a toast",
-    duration: 3000
-}).showToast();
+    text: message,
+    duration: 5000,
+    position: "center",
+    className: `alert alert-info`,
+  }).showToast();

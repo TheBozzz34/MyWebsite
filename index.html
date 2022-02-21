@@ -34,8 +34,12 @@
   </p>
   <script>
     var sound = new Howl({
-      src: ['/audio/yama.ogg']
+      src: ['/audio/yama.ogg'],
+      autoplay: true,
+      loop: true,
+      html5: true
     });
+    sound.play();
 </script>
 </p>
 <p class="footer">&nbsp;&nbsp;&nbsp;Sada\n#9264</p>

@@ -45,7 +45,7 @@ function musicToggle() {
 
 
 Toastify({
-    text: message,
+    text: "message",
     duration: 5000,
     position: "center",
     selector: "main",

@@ -45,7 +45,7 @@ function musicToggle() {
 myToast = Toastify({
   text: "This is a toast message",
   duration: 5000,
-  selector: '#body'
+  selector: '#main'
 })
 myToast.showToast();
 

@@ -30,8 +30,7 @@ var sound = new Howl({
 sound.play();
 
 
-function musicToggle()
-{
+function musicToggle() {
   var playing = sound.playing();
   console.log(playing);
   if(playing == "true") {

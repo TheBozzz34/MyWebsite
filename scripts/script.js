@@ -32,7 +32,7 @@ sound.play();
 
 function musicToggle()
 {
-  let playing = sound.playing();
+  var playing = sound.playing();
   console.log(playing);
   if(playing == "true") {
       sound.pause();

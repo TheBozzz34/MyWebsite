@@ -40,5 +40,5 @@ function musicToggle() {
   else if(playing == "false") {
       sound.play();
   }
-}
+}// Function refuses to work and i have no idea why
 

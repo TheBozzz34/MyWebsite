@@ -39,7 +39,7 @@ img {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', sans-serif;
     font-size: 14px;
     font-weight: 500;
     height: 40px;
@@ -63,7 +63,7 @@ img {
 }
 .infoText {
     color: rgb(88 199 250 / 100%);
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
 }
 .footer {
@@ -71,6 +71,6 @@ img {
     bottom: 0;
     left: 0;
     color: rgb(88 199 250 / 100%);
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: .6em;
 }

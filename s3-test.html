@@ -31,6 +31,7 @@
 
       })();
       
+      (async () => {
       const data = await s3.send(new GetObjectCommand(bucketParams));
       return data; // For unit tests.
     // Convert the ReadableStream to a string.
@@ -40,6 +41,8 @@
   } catch (err) {
     console.log("Error", err);
   }
+      })();
+      
     </script>
 
   </body>

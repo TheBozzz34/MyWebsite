@@ -68,16 +68,18 @@
         let base64 = buf.toString('base64');
         return base64
     }
-    
+    var div = document.createElement('DIV');
     getImage()
     .then((img)=>{
       let image="<img src='data:image/jpeg;base64," + encode(img.Body) + "'" + "/>";
       let startHTML="<html><body></body>";
       let endHTML="</body></html>";
       let html=startHTML + image + endHTML;
-      res.send(html)
+      div.innerHTML = html
+      div.firstChild
+
     }).catch((e)=>{
-        res.send(e)
+        console.log(e)
     })
     
     

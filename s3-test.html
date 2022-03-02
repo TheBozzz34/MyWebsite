@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1083.0.min.js"></script>
   </head>
   <body>
+    
+    <script>
+      const accessKeyId = "jxembvw2e3iukyc2bpxselmvbirq";
+      const secretAccessKey = "j2e5lnugdxwks3fvgah3lboqcl5m3u23vmxr2ihtwtgzgxgpunheo";
+      const endpoint = "https://gateway.us1.storjshare.io";
+
+      const s3 = new S3({
+        accessKeyId,
+        secretAccessKey,
+        endpoint,
+        s3ForcePathStyle: true,
+        signatureVersion: "v4",
+        connectTimeout: 0,
+        httpOptions: { timeout: 0 }
+      });
+      
+      (async () => {
+
+      const { Buckets } = await s3.listBuckets({}).promise();
+      console.log(Buckets);
+
+      })();
+    </script>
 
   </body>
 </html>

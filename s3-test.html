@@ -33,13 +33,13 @@
       })();
       
       async function getReports(objects = []) {
-      const response = await s3.listObjectsV2(bucketParams).promise();
+      const response = await s3.listObjectsV2({}).promise();
 
       response.Contents.forEach(obj => objects.push(obj));
 
       if (response.NextContinuationToken) {
         bucketParams.ContinuationToken = response.NextContinuationToken;
-        await getReports(bucketParams, objects);
+        await getReports(objects);
       }
       console.log("objects ",objects)
       return objects;

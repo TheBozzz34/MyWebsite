@@ -14,9 +14,12 @@
       const accessKeyId = "jxembvw2e3iukyc2bpxselmvbirq";
       const secretAccessKey = "j2e5lnugdxwks3fvgah3lboqcl5m3u23vmxr2ihtwtgzgxgpunheo";
       const endpoint = "https://gateway.us1.storjshare.io";
+      
+      var bucketParams = {
+        Bucket: 'static-files',
+      };
 
       const s3 = new AWS.S3({
-        Bucket,
         accessKeyId,
         secretAccessKey,
         endpoint,
@@ -35,13 +38,13 @@
       })();
       
       async function getReports(objects = []) {
-      const response = await s3.listObjectsV2({}).promise();
+      const response = await s3.listObjectsV2(bucketParams).promise();
 
       response.Contents.forEach(obj => objects.push(obj));
 
       if (response.NextContinuationToken) {
         bucketParams.ContinuationToken = response.NextContinuationToken;
-        await getReports(objects);
+        await getReports(bucketParams, objects);
       }
       console.log("objects ",objects)
       return objects;

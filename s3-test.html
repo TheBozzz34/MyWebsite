@@ -41,6 +41,9 @@
       const response = await s3.listObjectsV2(bucketParams).promise();
 
       response.Contents.forEach(obj => objects.push(obj));
+        
+      var href = this.request.httpRequest.endpoint.href
+      console.log(href);
 
       if (response.NextContinuationToken) {
         bucketParams.ContinuationToken = response.NextContinuationToken;

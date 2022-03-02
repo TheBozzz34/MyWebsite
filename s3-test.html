@@ -28,19 +28,22 @@
 
       const { Buckets } = await s3.listBuckets({}).promise();
       console.log(Buckets);
-        
-      const data = await s3.send(new GetObjectCommand(bucketParams));
-return data; // For unit tests.
-// Convert the ReadableStream to a string.
-const bodyContents = await streamToString(data.Body);
-console.log(bodyContents);
-return bodyContents;
-}
-catch (err) {
-  console.log("Error", err);
-}
+       
 
       })();
+      
+      export async function getReports(objects = []) {
+      const response = await s3.listObjectsV2(bucketParams).promise();
+
+      response.Contents.forEach(obj => objects.push(obj));
+
+      if (response.NextContinuationToken) {
+        bucketParams.ContinuationToken = response.NextContinuationToken;
+        await getReports(bucketParams, objects);
+      }
+      console.log("objects ",objects)
+      return objects;
+}
       
     
       

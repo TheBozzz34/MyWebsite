@@ -10,11 +10,13 @@
   <body>
     
     <script>
+      const Bucket = "static-files";
       const accessKeyId = "jxembvw2e3iukyc2bpxselmvbirq";
       const secretAccessKey = "j2e5lnugdxwks3fvgah3lboqcl5m3u23vmxr2ihtwtgzgxgpunheo";
       const endpoint = "https://gateway.us1.storjshare.io";
 
       const s3 = new AWS.S3({
+        Bucket,
         accessKeyId,
         secretAccessKey,
         endpoint,

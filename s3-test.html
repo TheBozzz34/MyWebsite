@@ -68,7 +68,9 @@
         //let base64 = buf.toString('base64');
         let base64 = data.toString('base64');
         return base64
+        
     }
+    encode();
     var div = document.createElement('DIV');
     getImage()
     .then((img)=>{
@@ -82,6 +84,7 @@
     }).catch((e)=>{
         console.log(e)
     })
+      getImage();
     
     
     

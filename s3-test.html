@@ -32,7 +32,7 @@
 
       })();
       
-      export async function getReports(objects = []) {
+      async function getReports(objects = []) {
       const response = await s3.listObjectsV2(bucketParams).promise();
 
       response.Contents.forEach(obj => objects.push(obj));

@@ -17,6 +17,9 @@ function setLocation1() {
 function setLocation2() {
   window.location.replace("https://instagram.com/k._eturah");
 }
+function setLocation3() {
+  window.location.replace("https://fourleafclover.company/photos");
+}
 
 
 

@@ -65,6 +65,9 @@ img {
     color: rgb(88 199 250 / 100%);
     font-family: 'Open Sans', sans-serif;
     font-size: 0.875em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .footer {
     position: absolute;

@@ -1,4 +1,4 @@
-
+jQuery("p1").fitText(0.38);
 /*
 let visited = Cookies.get('visited');
     if (visited == "yes") {

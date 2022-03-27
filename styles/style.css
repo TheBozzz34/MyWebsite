@@ -109,7 +109,5 @@ img {
 .cryptoButton:hover,
 .cryptoButton:focus {
     background-color: #F082AC;
-}
-.cryptoButton:before {
     content:"Copied address!
 }

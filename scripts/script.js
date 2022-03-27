@@ -20,6 +20,15 @@ function setLocation2() {
 function setLocation3() {
   window.location.replace("https://fourleafclover.company/photos");
 }
+function copyXMR() {
+  navigator.clipboard.writeText("46MKdFDmj9T11cVZgJ7ZVPbyUZSLgvietPRd8LEahyUECVQZNQsG6DbaAzb8u11C1oWkLhZotpjvpQCnKCpLFCQdFpH3Yse");
+}
+function copyBTC() {
+  navigator.clipboard.writeText("bc1ql9emc99yyj9ph9z57gz89667u0kpl8tw9f4c3u");
+}
+function copyETH() {
+  navigator.clipboard.writeText("0xfBA5d295732Bac60aFcFC2b534aA313a79783990");
+}
 
 
 

@@ -5,7 +5,7 @@ let visited = Cookies.get('visited');
         //alert("Welcome again");
         //console.log(visited);
     } else {
-        window.location.replace("https://fourleafclover.company/quaternion-inference.html");
+        window.location.replace("https://necrozma.xyz/quaternion-inference.html");
   }
 */  
 function setLocation0() {
@@ -18,7 +18,7 @@ function setLocation2() {
   window.location.replace("https://instagram.com/k._eturah");
 }
 function setLocation3() {
-  window.location.replace("https://fourleafclover.company/photos");
+  window.location.replace("https://necrozma.xyz/photos");
 }
 function copyXMR() {
   navigator.clipboard.writeText("46MKdFDmj9T11cVZgJ7ZVPbyUZSLgvietPRd8LEahyUECVQZNQsG6DbaAzb8u11C1oWkLhZotpjvpQCnKCpLFCQdFpH3Yse");

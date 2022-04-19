@@ -1,0 +1,1 @@
+surge C:\Users\sansm\MyWebsite\ necrozma.xyz

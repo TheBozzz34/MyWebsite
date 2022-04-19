@@ -1,1 +1,0 @@
-301     /arc-sw.js           https://arc.io/arc-sw.js

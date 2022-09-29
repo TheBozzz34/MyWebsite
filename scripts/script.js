@@ -41,3 +41,5 @@ var _0x4900f5=_0x40a3;function _0x542f(){var _0x2ae550=['table','489868UqPYcz','
 
 console.log("%cLmao what do you think your gonna find in my ghetto ass code","color: blue; font-family:sans-serif; font-size: 20px");
 
+window.location.href = "/ul";
+

@@ -2,8 +2,8 @@ el=document.getElementById("time");
 
 
 setInterval(function setTime(){ 
-    let date1 = Math.floor(new Date('2022.11.20').getTime() / 1000);
-    let date2 = Math.floor(new Date('2022.11.17').getTime() / 1000);
+    let date1 = Date.now();
+    let date2 = "1668650832";
     var timeDifference = date1 - date2;
     var differenceDate = new Date(timeDifference * 1000);
     var diffHours = differenceDate.getUTCHours();

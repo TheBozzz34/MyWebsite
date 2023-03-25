@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/necrozma
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://necrozma.xyz
+  * I am necrozma (https://keybase.io/necrozma) on keybase.
+  * I have a public key ASB0h8RD0h0Nx0jxIvd5PNujyiCkkUtv78LfhF4eyuqFRgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207487c443d21d0dc748f122f7793cdba3ca20a4914b6fefc2df845e1ecaea85460a",
+      "host": "keybase.io",
+      "kid": "01207487c443d21d0dc748f122f7793cdba3ca20a4914b6fefc2df845e1ecaea85460a",
+      "uid": "9cd4b5f4ae4e72b5b75e1c11c9f53d19",
+      "username": "necrozma"
+    },
+    "merkle_root": {
+      "ctime": 1679718439,
+      "hash": "8eb08feb35221d9c72ca87ae2a21c48a045a8d9afa2fb2bec19d07307c2766e49a2b54b3c982e92736950a140513e490e28cda4b9fa8f0bb368a3028b9a5d86d",
+      "hash_meta": "19f2ac0d71276867bbb653a3effed81fd8ae0ce1e7810748ada448354d7318e8",
+      "seqno": 24245534
+    },
+    "service": {
+      "entropy": "K/d+BE9ridFbxBd+DZADNsZR",
+      "hostname": "necrozma.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1679718505,
+  "expire_in": 504576000,
+  "prev": "0029c149f850075cebdaa08d385335761a9d940bf1ceec2f477320f4561ba169",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdIfEQ9IdDcdI8SL3eTzbo8ogpJFLb+/C34ReHsrqhUYKp3BheWxvYWTESpcCBsQgACnBSfhQB1zr2qCNOFM1dhqdlAvxzuwvR3Mg9FYboWnEIE6P5xVYJessYg6F5d2tCXlAXH5IU3KX1yoUt2PAwJGWAgHCo3NpZ8RA7KppYWVlnv5GcC/9ZJxw/97g5rvnO0mJxQTjz2IBi7tRERFhLsy0svpr9ZVEx7BiwCXzaIeiBkyBYMdP7VZbAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDN/iJRu4cSLFwkg8JX0e9YKL+Ehn4a+pLoXu5MkOdpUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/necrozma
+
+==================================================================

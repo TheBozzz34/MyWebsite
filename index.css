@@ -19,6 +19,10 @@ h1 {
 }
 
 #links {
+    border-top: #181A1B 1px solid;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    
+
 }

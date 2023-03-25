@@ -19,6 +19,7 @@ h1 {
 }
 
 #links {
+    margin-top: 1rem;
     border-top:wheat 1px solid;
     width: 46%;
     margin-left: auto;
